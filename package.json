@@ -1,6 +1,6 @@
 {
   "name": "@brightchain/brightmail-lib",
-  "version": "0.29.0",
+  "version": "0.29.8",
   "description": "BrightMail shared library - i18n strings, request interfaces and types for BrightChain mail",
   "main": "src/index.ts",
   "types": "src/index.ts",
