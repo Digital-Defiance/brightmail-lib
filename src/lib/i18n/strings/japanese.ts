@@ -32,6 +32,11 @@ export const BrightMailJapaneseStrings: ComponentStrings<BrightMailStringKey> = 
     'ECIES暗号化は外部の受信者には利用できません。暗号化が有効な状態で外部アドレスが含まれている間、送信は無効になります。',
   [BrightMailStrings.Compose_ExternalRecipientsWarningTemplate]:
     '外部の受信者（{ADDRESSES}）はローカルドメイン外にあり、ECIES暗号化メッセージを受信できません。',
+  [BrightMailStrings.Compose_BounceWarningTitle]:
+    '未確認の宛先',
+  [BrightMailStrings.Compose_BounceWarningMessage]:
+    '以下の宛先が見つからず、メッセージが返送される可能性があります：{ADDRESSES}。送信しますか？',
+  [BrightMailStrings.Compose_BounceWarningSendAnyway]: 'そのまま送信',
 
   // Thread
   [BrightMailStrings.Thread_Error]: 'スレッドの読み込みに失敗しました',

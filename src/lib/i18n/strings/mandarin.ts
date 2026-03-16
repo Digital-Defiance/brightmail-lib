@@ -32,6 +32,11 @@ export const BrightMailMandarinStrings: ComponentStrings<BrightMailStringKey> = 
     'ECIES加密不适用于外部收件人。在启用加密的情况下存在外部地址时，发送功能将被禁用。',
   [BrightMailStrings.Compose_ExternalRecipientsWarningTemplate]:
     '外部收件人（{ADDRESSES}）不在本地域内，无法接收ECIES加密消息。',
+  [BrightMailStrings.Compose_BounceWarningTitle]:
+    '未验证的收件人',
+  [BrightMailStrings.Compose_BounceWarningMessage]:
+    '以下收件人未找到，您的邮件可能会被退回：{ADDRESSES}。仍然发送吗？',
+  [BrightMailStrings.Compose_BounceWarningSendAnyway]: '仍然发送',
 
   // Thread
   [BrightMailStrings.Thread_Error]: '加载会话失败',

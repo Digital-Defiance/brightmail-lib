@@ -34,6 +34,11 @@ export const BrightMailGermanStrings: ComponentStrings<BrightMailStringKey> = {
     'ECIES-Verschlüsselung ist für externe Empfänger nicht verfügbar. Das Senden ist deaktiviert, solange externe Adressen bei aktivierter Verschlüsselung vorhanden sind.',
   [BrightMailStrings.Compose_ExternalRecipientsWarningTemplate]:
     'Externe Empfänger ({ADDRESSES}) befinden sich außerhalb der lokalen Domäne und können keine ECIES-verschlüsselten Nachrichten empfangen.',
+  [BrightMailStrings.Compose_BounceWarningTitle]:
+    'Nicht verifizierte Empfänger',
+  [BrightMailStrings.Compose_BounceWarningMessage]:
+    'Die folgenden Empfänger konnten nicht gefunden werden und Ihre Nachricht könnte zurückgewiesen werden: {ADDRESSES}. Trotzdem senden?',
+  [BrightMailStrings.Compose_BounceWarningSendAnyway]: 'Trotzdem senden',
 
   // Thread
   [BrightMailStrings.Thread_Error]:

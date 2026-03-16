@@ -34,6 +34,11 @@ export const BrightMailFrenchStrings: ComponentStrings<BrightMailStringKey> = {
     "Le chiffrement ECIES n'est pas disponible pour les destinataires externes. L'envoi est désactivé tant que des adresses externes sont présentes avec le chiffrement activé.",
   [BrightMailStrings.Compose_ExternalRecipientsWarningTemplate]:
     'Les destinataires externes ({ADDRESSES}) sont en dehors du domaine local et ne peuvent pas recevoir de messages chiffrés ECIES.',
+  [BrightMailStrings.Compose_BounceWarningTitle]:
+    'Destinataires non vérifiés',
+  [BrightMailStrings.Compose_BounceWarningMessage]:
+    'Les destinataires suivants sont introuvables et votre message pourrait être rejeté : {ADDRESSES}. Envoyer quand même ?',
+  [BrightMailStrings.Compose_BounceWarningSendAnyway]: 'Envoyer quand même',
 
   // Thread
   [BrightMailStrings.Thread_Error]:
