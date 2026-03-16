@@ -28,6 +28,10 @@ export const BrightMailJapaneseStrings: ComponentStrings<BrightMailStringKey> = 
   [BrightMailStrings.Compose_InvalidRecipient]:
     '有効な宛先を少なくとも1つ追加してください',
   [BrightMailStrings.Compose_Attachments]: '添付ファイル',
+  [BrightMailStrings.Compose_ExternalRecipientsWarning]:
+    'ECIES暗号化は外部の受信者には利用できません。暗号化が有効な状態で外部アドレスが含まれている間、送信は無効になります。',
+  [BrightMailStrings.Compose_ExternalRecipientsWarningTemplate]:
+    '外部の受信者（{ADDRESSES}）はローカルドメイン外にあり、ECIES暗号化メッセージを受信できません。',
 
   // Thread
   [BrightMailStrings.Thread_Error]: 'スレッドの読み込みに失敗しました',

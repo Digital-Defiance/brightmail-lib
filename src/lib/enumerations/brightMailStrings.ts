@@ -28,6 +28,8 @@ export const BrightMailStrings = createI18nStringKeys(BrightMailComponentId, {
   Compose_SendError: 'Compose_SendError',
   Compose_InvalidRecipient: 'Compose_InvalidRecipient',
   Compose_Attachments: 'Compose_Attachments',
+  Compose_ExternalRecipientsWarning: 'Compose_ExternalRecipientsWarning',
+  Compose_ExternalRecipientsWarningTemplate: 'Compose_ExternalRecipientsWarningTemplate',
 
   // Thread
   Thread_Error: 'Thread_Error',

@@ -31,6 +31,10 @@ export const BrightMailSpanishStrings: ComponentStrings<BrightMailStringKey> = {
   [BrightMailStrings.Compose_InvalidRecipient]:
     'Por favor, añada al menos un destinatario válido',
   [BrightMailStrings.Compose_Attachments]: 'Archivos adjuntos',
+  [BrightMailStrings.Compose_ExternalRecipientsWarning]:
+    'El cifrado ECIES no está disponible para destinatarios externos. El envío está deshabilitado mientras haya direcciones externas con el cifrado activado.',
+  [BrightMailStrings.Compose_ExternalRecipientsWarningTemplate]:
+    'Los destinatarios externos ({ADDRESSES}) están fuera del dominio local y no pueden recibir mensajes cifrados con ECIES.',
 
   // Thread
   [BrightMailStrings.Thread_Error]:

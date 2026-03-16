@@ -31,6 +31,10 @@ export const BrightMailUkrainianStrings: ComponentStrings<BrightMailStringKey> =
     [BrightMailStrings.Compose_InvalidRecipient]:
       'Будь ласка, додайте принаймні одного дійсного одержувача',
     [BrightMailStrings.Compose_Attachments]: 'Вкладення',
+    [BrightMailStrings.Compose_ExternalRecipientsWarning]:
+      'Шифрування ECIES недоступне для зовнішніх одержувачів. Надсилання вимкнено, поки присутні зовнішні адреси з увімкненим шифруванням.',
+    [BrightMailStrings.Compose_ExternalRecipientsWarningTemplate]:
+      'Зовнішні одержувачі ({ADDRESSES}) знаходяться за межами локального домену і не можуть отримувати повідомлення, зашифровані ECIES.',
 
     // Thread
     [BrightMailStrings.Thread_Error]: 'Не вдалося завантажити ланцюжок',

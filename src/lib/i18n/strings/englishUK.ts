@@ -29,6 +29,10 @@ export const BrightMailBritishEnglishStrings: ComponentStrings<BrightMailStringK
     [BrightMailStrings.Compose_InvalidRecipient]:
       'Please add at least one valid recipient',
     [BrightMailStrings.Compose_Attachments]: 'Attachments',
+    [BrightMailStrings.Compose_ExternalRecipientsWarning]:
+      'ECIES encryption is not available for external recipients. Sending is disabled whilst external addresses are present with encryption enabled.',
+    [BrightMailStrings.Compose_ExternalRecipientsWarningTemplate]:
+      'External recipients ({ADDRESSES}) are outside the local domain and cannot receive ECIES-encrypted messages.',
 
     // Thread
     [BrightMailStrings.Thread_Error]: 'Failed to load thread',

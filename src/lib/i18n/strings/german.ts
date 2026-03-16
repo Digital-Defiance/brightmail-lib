@@ -30,6 +30,10 @@ export const BrightMailGermanStrings: ComponentStrings<BrightMailStringKey> = {
   [BrightMailStrings.Compose_InvalidRecipient]:
     'Bitte fügen Sie mindestens einen gültigen Empfänger hinzu',
   [BrightMailStrings.Compose_Attachments]: 'Anhänge',
+  [BrightMailStrings.Compose_ExternalRecipientsWarning]:
+    'ECIES-Verschlüsselung ist für externe Empfänger nicht verfügbar. Das Senden ist deaktiviert, solange externe Adressen bei aktivierter Verschlüsselung vorhanden sind.',
+  [BrightMailStrings.Compose_ExternalRecipientsWarningTemplate]:
+    'Externe Empfänger ({ADDRESSES}) befinden sich außerhalb der lokalen Domäne und können keine ECIES-verschlüsselten Nachrichten empfangen.',
 
   // Thread
   [BrightMailStrings.Thread_Error]:
