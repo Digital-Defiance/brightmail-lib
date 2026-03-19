@@ -1,2 +1,2 @@
-export * from './strings';
 export * from './brightmail-component';
+export * from './strings';

@@ -33,8 +33,7 @@ export const BrightMailBritishEnglishStrings: ComponentStrings<BrightMailStringK
       'ECIES encryption is not available for external recipients. Sending is disabled whilst external addresses are present with encryption enabled.',
     [BrightMailStrings.Compose_ExternalRecipientsWarningTemplate]:
       'External recipients ({ADDRESSES}) are outside the local domain and cannot receive ECIES-encrypted messages.',
-    [BrightMailStrings.Compose_BounceWarningTitle]:
-      'Unverified recipients',
+    [BrightMailStrings.Compose_BounceWarningTitle]: 'Unverified recipients',
     [BrightMailStrings.Compose_BounceWarningMessage]:
       'The following recipients could not be found and your message may bounce: {ADDRESSES}. Send anyway?',
     [BrightMailStrings.Compose_BounceWarningSendAnyway]: 'Send Anyway',

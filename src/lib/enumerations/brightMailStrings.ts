@@ -29,7 +29,8 @@ export const BrightMailStrings = createI18nStringKeys(BrightMailComponentId, {
   Compose_InvalidRecipient: 'Compose_InvalidRecipient',
   Compose_Attachments: 'Compose_Attachments',
   Compose_ExternalRecipientsWarning: 'Compose_ExternalRecipientsWarning',
-  Compose_ExternalRecipientsWarningTemplate: 'Compose_ExternalRecipientsWarningTemplate',
+  Compose_ExternalRecipientsWarningTemplate:
+    'Compose_ExternalRecipientsWarningTemplate',
   Compose_BounceWarningTitle: 'Compose_BounceWarningTitle',
   Compose_BounceWarningMessage: 'Compose_BounceWarningMessage',
   Compose_BounceWarningSendAnyway: 'Compose_BounceWarningSendAnyway',

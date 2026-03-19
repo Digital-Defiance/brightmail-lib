@@ -25,8 +25,7 @@ export const BrightMailFrenchStrings: ComponentStrings<BrightMailStringKey> = {
   [BrightMailStrings.Compose_Body]: 'Message',
   [BrightMailStrings.Compose_Send]: 'Envoyer',
   [BrightMailStrings.Compose_SendSuccess]: 'E-mail envoyé avec succès',
-  [BrightMailStrings.Compose_SendError]:
-    "Échec de l'envoi de l'e-mail",
+  [BrightMailStrings.Compose_SendError]: "Échec de l'envoi de l'e-mail",
   [BrightMailStrings.Compose_InvalidRecipient]:
     'Veuillez ajouter au moins un destinataire valide',
   [BrightMailStrings.Compose_Attachments]: 'Pièces jointes',
@@ -34,23 +33,19 @@ export const BrightMailFrenchStrings: ComponentStrings<BrightMailStringKey> = {
     "Le chiffrement ECIES n'est pas disponible pour les destinataires externes. L'envoi est désactivé tant que des adresses externes sont présentes avec le chiffrement activé.",
   [BrightMailStrings.Compose_ExternalRecipientsWarningTemplate]:
     'Les destinataires externes ({ADDRESSES}) sont en dehors du domaine local et ne peuvent pas recevoir de messages chiffrés ECIES.',
-  [BrightMailStrings.Compose_BounceWarningTitle]:
-    'Destinataires non vérifiés',
+  [BrightMailStrings.Compose_BounceWarningTitle]: 'Destinataires non vérifiés',
   [BrightMailStrings.Compose_BounceWarningMessage]:
     'Les destinataires suivants sont introuvables et votre message pourrait être rejeté : {ADDRESSES}. Envoyer quand même ?',
   [BrightMailStrings.Compose_BounceWarningSendAnyway]: 'Envoyer quand même',
 
   // Thread
-  [BrightMailStrings.Thread_Error]:
-    'Échec du chargement du fil de discussion',
-  [BrightMailStrings.Thread_BackToInbox]:
-    'Retour à la boîte de réception',
+  [BrightMailStrings.Thread_Error]: 'Échec du chargement du fil de discussion',
+  [BrightMailStrings.Thread_BackToInbox]: 'Retour à la boîte de réception',
   [BrightMailStrings.Thread_Reply]: 'Répondre',
   [BrightMailStrings.Thread_Forward]: 'Transférer',
 
   // Delete
-  [BrightMailStrings.Delete_Confirm]:
-    'Êtes-vous sûr de vouloir supprimer ?',
+  [BrightMailStrings.Delete_Confirm]: 'Êtes-vous sûr de vouloir supprimer ?',
   [BrightMailStrings.Delete_ConfirmBulkTemplate]:
     'Supprimer {COUNT} e-mails sélectionnés ?',
   [BrightMailStrings.Delete_Success]: 'E-mail supprimé',

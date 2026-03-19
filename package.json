@@ -1,6 +1,6 @@
 {
   "name": "@brightchain/brightmail-lib",
-  "version": "0.29.23",
+  "version": "0.29.24",
   "description": "BrightMail shared library - i18n strings, request interfaces and types for BrightChain mail",
   "main": "src/index.ts",
   "types": "src/index.ts",
@@ -32,5 +32,10 @@
   },
   "peerDependencies": {
     "@brightchain/brightchain-lib": "*"
+  },
+  "scripts": {
+    "build": "npx nx build brightmail-lib",
+    "test": "npx nx test brightmail-lib",
+    "lint": "npx nx lint brightmail-lib"
   }
 }

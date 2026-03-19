@@ -11,8 +11,7 @@ export const BrightMailGermanStrings: ComponentStrings<BrightMailStringKey> = {
   // Inbox
   [BrightMailStrings.Inbox_Title]: 'Posteingang',
   [BrightMailStrings.Inbox_Empty]: 'Noch keine E-Mails',
-  [BrightMailStrings.Inbox_Error]:
-    'Posteingang konnte nicht geladen werden',
+  [BrightMailStrings.Inbox_Error]: 'Posteingang konnte nicht geladen werden',
   [BrightMailStrings.Inbox_Retry]: 'Erneut versuchen',
   [BrightMailStrings.Inbox_UnreadCountTemplate]: '{COUNT} ungelesen',
 
@@ -25,8 +24,7 @@ export const BrightMailGermanStrings: ComponentStrings<BrightMailStringKey> = {
   [BrightMailStrings.Compose_Body]: 'Nachricht',
   [BrightMailStrings.Compose_Send]: 'Senden',
   [BrightMailStrings.Compose_SendSuccess]: 'E-Mail erfolgreich gesendet',
-  [BrightMailStrings.Compose_SendError]:
-    'E-Mail konnte nicht gesendet werden',
+  [BrightMailStrings.Compose_SendError]: 'E-Mail konnte nicht gesendet werden',
   [BrightMailStrings.Compose_InvalidRecipient]:
     'Bitte fügen Sie mindestens einen gültigen Empfänger hinzu',
   [BrightMailStrings.Compose_Attachments]: 'Anhänge',
@@ -41,8 +39,7 @@ export const BrightMailGermanStrings: ComponentStrings<BrightMailStringKey> = {
   [BrightMailStrings.Compose_BounceWarningSendAnyway]: 'Trotzdem senden',
 
   // Thread
-  [BrightMailStrings.Thread_Error]:
-    'Thread konnte nicht geladen werden',
+  [BrightMailStrings.Thread_Error]: 'Thread konnte nicht geladen werden',
   [BrightMailStrings.Thread_BackToInbox]: 'Zurück zum Posteingang',
   [BrightMailStrings.Thread_Reply]: 'Antworten',
   [BrightMailStrings.Thread_Forward]: 'Weiterleiten',

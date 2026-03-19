@@ -11,8 +11,7 @@ export const BrightMailSpanishStrings: ComponentStrings<BrightMailStringKey> = {
   // Inbox
   [BrightMailStrings.Inbox_Title]: 'Bandeja de entrada',
   [BrightMailStrings.Inbox_Empty]: 'Aún no hay correos electrónicos',
-  [BrightMailStrings.Inbox_Error]:
-    'Error al cargar la bandeja de entrada',
+  [BrightMailStrings.Inbox_Error]: 'Error al cargar la bandeja de entrada',
   [BrightMailStrings.Inbox_Retry]: 'Reintentar',
   [BrightMailStrings.Inbox_UnreadCountTemplate]: '{COUNT} sin leer',
 
@@ -42,16 +41,13 @@ export const BrightMailSpanishStrings: ComponentStrings<BrightMailStringKey> = {
   [BrightMailStrings.Compose_BounceWarningSendAnyway]: 'Enviar de todos modos',
 
   // Thread
-  [BrightMailStrings.Thread_Error]:
-    'Error al cargar el hilo de conversación',
-  [BrightMailStrings.Thread_BackToInbox]:
-    'Volver a la bandeja de entrada',
+  [BrightMailStrings.Thread_Error]: 'Error al cargar el hilo de conversación',
+  [BrightMailStrings.Thread_BackToInbox]: 'Volver a la bandeja de entrada',
   [BrightMailStrings.Thread_Reply]: 'Responder',
   [BrightMailStrings.Thread_Forward]: 'Reenviar',
 
   // Delete
-  [BrightMailStrings.Delete_Confirm]:
-    '¿Está seguro de que desea eliminar?',
+  [BrightMailStrings.Delete_Confirm]: '¿Está seguro de que desea eliminar?',
   [BrightMailStrings.Delete_ConfirmBulkTemplate]:
     '¿Eliminar {COUNT} correos seleccionados?',
   [BrightMailStrings.Delete_Success]: 'Correo electrónico eliminado',

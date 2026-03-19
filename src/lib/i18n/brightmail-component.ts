@@ -9,8 +9,8 @@ import {
   BrightMailComponentId,
   BrightMailStrings,
 } from '../enumerations/brightMailStrings';
-import { BrightMailAmericanEnglishStrings } from './strings/englishUs';
 import { BrightMailBritishEnglishStrings } from './strings/englishUK';
+import { BrightMailAmericanEnglishStrings } from './strings/englishUs';
 import { BrightMailFrenchStrings } from './strings/french';
 import { BrightMailGermanStrings } from './strings/german';
 import { BrightMailJapaneseStrings } from './strings/japanese';
